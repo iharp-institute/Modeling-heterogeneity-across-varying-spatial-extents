@@ -52,6 +52,11 @@ This study uses the ERA5-Land Reanalysis dataset for Snow Depth.
 4. Match the time range with the sea ice dataset.
 5. Download in NetCDF (.nc) format.
 
+After downloading the sea ice concentration data, the individual files were merged and regridded to a 0.25° spatial resolution using a separate preprocessing workflow.
+
+For the land ice dataset, the Snow Depth variable from ERA5-Land was downloaded and merged into a single consolidated file prior to analysis.
+
+
 ## Dependencies
 
 To run this code, install the following Python packages:
@@ -69,4 +74,25 @@ You can install them using:
 
 pip install numpy pandas xarray netCDF4 matplotlib scipy scikit-learn cartopy
 
+
+
+
+### Run Monthly Visualization
+
+Open:
+
+new_code_monthly_scale.ipynb
+
+Run all cells to generate:
+- Monthly aggregated plots
+- Spatial visualizations
+- Comparative figures
+
+---
+
+### Notes
+
+- Always run cells in order.
+- Restart the kernel if memory becomes high.
+- Ensure file paths in the notebook match your local folder structure.
 
