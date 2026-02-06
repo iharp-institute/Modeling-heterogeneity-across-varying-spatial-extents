@@ -1,4 +1,4 @@
-# Notebook Descriptions
+# Code Descriptions
 
 This repository contains two primary Jupyter notebooks for interaction analysis and visualization.
 
