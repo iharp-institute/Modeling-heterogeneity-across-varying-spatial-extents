@@ -52,4 +52,21 @@ This study uses the ERA5-Land Reanalysis dataset for Snow Depth.
 4. Match the time range with the sea ice dataset.
 5. Download in NetCDF (.nc) format.
 
+## Dependencies
+
+To run this code, install the following Python packages:
+
+- numpy
+- pandas
+- xarray
+- netCDF4
+- matplotlib
+- scipy
+- scikit-learn
+- cartopy
+
+You can install them using:
+
+pip install numpy pandas xarray netCDF4 matplotlib scipy scikit-learn cartopy
+
 
