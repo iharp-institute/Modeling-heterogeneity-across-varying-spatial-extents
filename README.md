@@ -33,7 +33,7 @@ This study uses the NSIDC Sea Ice Concentrations dataset.
 1. Select Southern Hemisphere data.
 2. Choose the required time range.
 3. Download files in NetCDF (.nc) format.
-4. Place them inside the `data/sea_ice/` directory.
+
 
 
 ---
@@ -51,5 +51,5 @@ This study uses the ERA5-Land Reanalysis dataset for Snow Depth.
 3. Select Antarctic region.
 4. Match the time range with the sea ice dataset.
 5. Download in NetCDF (.nc) format.
-6. Place files inside the `data/snow_depth/` directory.
+
 
