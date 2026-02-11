@@ -48,9 +48,8 @@ This study uses the ERA5-Land Reanalysis dataset for Snow Depth.
 **Instructions:**
 1. Create/login to a Copernicus Climate Data Store (CDS) account.
 2. Select variable: **Snow Depth**.
-3. Select Antarctic region.
-4. Match the time range with the sea ice dataset.
-5. Download in NetCDF (.nc) format.
+3. Match the time range with the sea ice dataset.
+4. Download in NetCDF (.nc) format.
 
 After downloading the sea ice concentration data, the individual files were merged and regridded to a 0.25° spatial resolution using a separate preprocessing workflow named data_processing_for_xy_to_lat_lon.ipynb
 
