@@ -51,7 +51,7 @@ This study uses the ERA5-Land Reanalysis dataset for Snow Depth.
 3. Match the time range with the sea ice dataset.
 4. Download in NetCDF (.nc) format.
 
-After downloading the sea ice concentration data, the individual files were merged and regridded to a 0.25° spatial resolution using a separate preprocessing workflow named data_processing_for_xy_to_lat_lon.ipynb
+After downloading the sea ice concentration data, the individual files were merged and regridded to a 0.25° spatial resolution using a separate preprocessing workflow named **data_processing_for_xy_to_lat_lon.ipynb**
 
 For the land ice dataset, the Snow Depth variable from ERA5-Land was downloaded and merged into a single consolidated file prior to analysis.
 
